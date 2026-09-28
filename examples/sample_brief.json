@@ -1,0 +1,203 @@
+{
+  "meta": {
+    "subject": "SAMPLE - Dr Alex Sample (fictional test data)",
+    "meeting_date": "2026-10-15",
+    "meeting_purpose": "Explore views on public housing supply and affordability, and scope a possible research collaboration on housing-market dynamics.",
+    "attendees": "Housing Policy Division (sample)",
+    "policy_domains": ["housing"],
+    "prepared_by": "cv-lookup (sample run)",
+    "date_prepared": "2026-09-28",
+    "classification": "OFFICIAL (OPEN)",
+    "recent_window_years": 3,
+    "top_cited_n": 5,
+    "logo_path": null,
+    "sources_consulted": [
+      {"name": "Crossref", "status": "ok", "retrieved": "2026-09-28"},
+      {"name": "ORCID", "status": "ok", "retrieved": "2026-09-28"},
+      {"name": "OpenAlex", "status": "ok", "retrieved": "2026-09-28"},
+      {"name": "Semantic Scholar", "status": "ok", "retrieved": "2026-09-28"},
+      {"name": "RePEc/IDEAS", "status": "ok", "retrieved": "2026-09-28"},
+      {"name": "Google Scholar", "status": "unavailable", "note": "CAPTCHA returned; citation counts from other sources only"}
+    ]
+  },
+  "executive_summary": [
+    "Dr Alex Sample is an urban economist at Example University working on housing supply, land-use regulation and household mobility (fictional profile for testing).",
+    "Two papers use Singapore data (Tier 1); a third on Hong Kong public housing is a close comparator (Tier 2).",
+    "Recommended angle: supply elasticity estimates in land-constrained cities, and interest in administrative resale data."
+  ],
+  "persons": [
+    {
+      "name": "Dr Alex Sample",
+      "title": "Associate Professor of Economics",
+      "affiliation": "Example University",
+      "identity": {
+        "confirmed": true,
+        "confirmed_by": "user, 2026-09-28",
+        "identifiers": {
+          "ORCID": "0000-0000-0000-0000",
+          "OpenAlex": "A0000000000",
+          "RePEc": "psa000",
+          "Google Scholar": "(not supplied)"
+        },
+        "notes": "Sample identity. Two OpenAlex profiles shared the name; the other is a chemist at a different institution.",
+        "sources": [
+          {"label": "Institutional page", "url": "https://example.org/people/alex-sample", "primary": true},
+          {"label": "ORCID", "url": "https://orcid.org/0000-0000-0000-0000", "primary": true}
+        ]
+      },
+      "key_message": [
+        "Urban economist whose work quantifies how land and zoning constraints shape housing prices in dense cities.",
+        "Has used Singapore resale data and co-authored with NUS; directly relevant to our supply-affordability review.",
+        "Angle: test our supply assumptions against their elasticity estimates; explore a data-access collaboration."
+      ],
+      "profile_short": "Associate Professor of Economics at Example University (since 2019); PhD Example Institute of Technology (2014). Research spans housing supply, land-use regulation and residential mobility. Research Affiliate, Example Centre for Urban Studies.",
+      "background": [
+        {"text": "Associate Professor of Economics, Example University (2019–present); Assistant Professor (2014–2019).", "status": "verified",
+         "sources": [{"label": "Institutional page", "url": "https://example.org/people/alex-sample", "primary": true}]},
+        {"text": "PhD in Economics, Example Institute of Technology (2014).", "status": "verified",
+         "sources": [{"label": "ORCID", "url": "https://orcid.org/0000-0000-0000-0000", "primary": true}]},
+        {"text": "Associate Editor, Journal of Example Urban Economics (2022–present).", "status": "partial",
+         "sources": [{"label": "Journal editorial board page", "url": "https://example.org/journal/board"}]},
+        {"text": "Reported member of a government housing advisory panel.", "status": "unverified",
+         "reason": "Mentioned only in a conference bio; no official source found."}
+      ],
+      "research_interests": [
+        {"theme": "Housing supply and land constraints", "description": "Estimating supply elasticities where land is scarce.", "jel": ["R31", "R52"], "refs": ["p1", "p3"], "status": "verified",
+         "sources": [{"label": "OpenAlex", "url": "https://openalex.org/A0000000000"}, {"label": "RePEc", "url": "https://ideas.repec.org/e/psa000.html"}]},
+        {"theme": "Public housing and household welfare", "description": "Effects of public housing allocation on mobility and wealth.", "jel": ["R21", "H53"], "refs": ["p2", "p4"], "status": "verified",
+         "sources": [{"label": "OpenAlex", "url": "https://openalex.org/A0000000000"}, {"label": "RePEc", "url": "https://ideas.repec.org/e/psa000.html"}]},
+        {"theme": "Residential mobility", "description": "Frictions in moving and their effect on labour-market matching.", "jel": ["R23", "J61"], "refs": ["p5"], "status": "verified",
+         "sources": [{"label": "OpenAlex", "url": "https://openalex.org/A0000000000"}, {"label": "Semantic Scholar", "url": "https://example.org/s2"}]}
+      ],
+      "publications": {
+        "p1": {
+          "title": "Land Scarcity and Housing Supply Elasticities in Dense Cities",
+          "authors": ["Alex Sample", "B. Coauthor"], "year": 2025, "venue": "Journal of Example Urban Economics", "type": "article",
+          "doi": "10.0000/example.2025.001",
+          "citations": [{"source": "OpenAlex", "count": 42, "retrieved": "2026-09-28"}, {"source": "Semantic Scholar", "count": 39, "retrieved": "2026-09-28"}],
+          "status": "verified",
+          "sources": [{"label": "Crossref", "url": "https://doi.org/10.0000/example.2025.001", "primary": true}],
+          "one_line_finding": "Supply elasticity is roughly one-third lower in land-constrained cities.",
+          "summary": {
+            "research_question": "How responsive is new housing supply to price changes when developable land is scarce?",
+            "data": "Panel of 120 cities, 2000–2020; permits, prices and satellite-derived land availability.",
+            "methodology": "Instrumental-variables estimation using exogenous variation in land availability.",
+            "main_findings": ["Supply elasticity is about one-third lower in the most land-constrained cities.", "Price effects of demand shocks are correspondingly larger."],
+            "sub_findings": ["Height limits account for roughly half the gap.", "Effects are larger for owner-occupied than rental stock."],
+            "relevance": "Directly informs assumptions on how quickly supply can respond to demand shocks.",
+            "basis": "full_text"
+          },
+          "singapore": {"tier": 1, "criterion": "Includes Singapore in the cross-city sample.", "one_line": "Tier 1: Singapore in sample"}
+        },
+        "p2": {
+          "title": "Public Housing Allocation and Household Wealth: Evidence from Singapore",
+          "authors": ["Alex Sample", "C. Colleague (NUS)"], "year": 2024, "venue": "Example Economic Review", "type": "article",
+          "doi": "10.0000/example.2024.002",
+          "citations": [{"source": "OpenAlex", "count": 18, "retrieved": "2026-09-28"}],
+          "status": "verified",
+          "sources": [{"label": "Crossref", "url": "https://doi.org/10.0000/example.2024.002", "primary": true}],
+          "one_line_finding": "Earlier allocation raises household net wealth at retirement.",
+          "summary": {
+            "research_question": "Does earlier access to public housing change long-run household wealth?",
+            "data": "Anonymised administrative records of flat allocations, 1995–2015 (sample description only).",
+            "methodology": "Regression discontinuity around ballot outcomes.",
+            "main_findings": ["Earlier allocation increases net wealth at retirement."],
+            "sub_findings": ["Effects concentrated in lower-income households."],
+            "relevance": "Evidence on the wealth effects of allocation rules under review.",
+            "basis": "abstract"
+          },
+          "singapore": {"tier": 1, "criterion": "Uses Singapore data; Singapore-affiliated co-author.", "one_line": "Tier 1: Singapore data"}
+        },
+        "p3": {
+          "title": "Zoning, Density and Prices: A Structural Approach",
+          "authors": ["Alex Sample"], "year": 2018, "venue": "Example Journal of Economics", "type": "article",
+          "doi": "10.0000/example.2018.003",
+          "citations": [{"source": "OpenAlex", "count": 310, "retrieved": "2026-09-28"}, {"source": "Semantic Scholar", "count": 295, "retrieved": "2026-09-28"}],
+          "status": "verified",
+          "sources": [{"label": "Crossref", "url": "https://doi.org/10.0000/example.2018.003", "primary": true}],
+          "summary": {
+            "research_question": "How much do zoning limits raise housing prices?",
+            "data": "US metropolitan areas, 1990–2015.",
+            "methodology": "Structural spatial-equilibrium model.",
+            "main_findings": ["Zoning explains a large share of price differences across cities."],
+            "sub_findings": "not stated",
+            "relevance": "Framework could be adapted to evaluate plot-ratio policy.",
+            "basis": "full_text"
+          }
+        },
+        "p4": {
+          "title": "Public Rental Housing and Mobility in Hong Kong",
+          "authors": ["Alex Sample", "D. Partner"], "year": 2024, "venue": null, "type": "working_paper",
+          "url": "https://example.org/wp/2024-04",
+          "citations": [{"source": "OpenAlex", "count": 3, "retrieved": "2026-09-28"}],
+          "status": "verified",
+          "sources": [{"label": "RePEc", "url": "https://ideas.repec.org/p/exa/wpaper/2404.html"}, {"label": "Author CV", "url": "https://example.org/people/alex-sample/cv.pdf", "primary": true}],
+          "summary": {
+            "research_question": "Does public rental tenancy reduce job mobility?",
+            "data": "Hong Kong census microdata, 2006–2021.",
+            "methodology": "Difference-in-differences around tenancy start.",
+            "main_findings": ["Tenancy reduces cross-district job moves."],
+            "sub_findings": ["Effect is smaller near mass-transit stations."],
+            "relevance": "Mobility side-effects of public housing design.",
+            "basis": "abstract"
+          },
+          "singapore": {"tier": 2, "context": "Hong Kong public rental housing",
+                        "comparability": "Dense city-state with a large public housing sector and a similar transit-oriented urban form.",
+                        "differences": "Hong Kong public housing is mostly rental; Singapore's is mostly owner-occupied leasehold, so the incentives to stay put differ.",
+                        "one_line": "Tier 2: Hong Kong (rental vs Singapore ownership)"}
+        },
+        "p5": {
+          "title": "Moving Costs and Job Matching",
+          "authors": ["Alex Sample", "E. Other", "F. Third", "G. Fourth"], "year": 2016, "venue": "Example Labour Journal", "type": "article",
+          "doi": "10.0000/example.2016.005",
+          "citations": [{"source": "OpenAlex", "count": 150, "retrieved": "2026-09-28"}],
+          "status": "verified",
+          "sources": [{"label": "Crossref", "url": "https://doi.org/10.0000/example.2016.005", "primary": true}],
+          "summary": {
+            "research_question": "How do moving costs affect job matching?",
+            "data": "Household panel survey, 1995–2012.",
+            "methodology": "Dynamic discrete-choice model.",
+            "main_findings": ["High moving costs lower match quality."],
+            "sub_findings": "not stated",
+            "relevance": "Background for mobility discussion.",
+            "basis": "abstract"
+          }
+        },
+        "p6": {
+          "title": "An Unlocated Conference Paper on Rent Control",
+          "authors": ["Alex Sample"], "year": 2023, "type": "working_paper",
+          "status": "unverified", "reason": "Listed on a third-party aggregator only; no DOI, no CV entry."
+        }
+      },
+      "recent": ["p1", "p2", "p4"],
+      "top_cited": ["p3", "p5", "p1", "p2"],
+      "singapore_relevant": ["p2", "p1", "p4"],
+      "key_papers": ["p1", "p2", "p4"],
+      "network": [
+        {"name": "B. Coauthor", "relationship": "Frequent co-author", "joint_works": 6, "detail": "Co-author on supply-elasticity papers, 2016–2025.", "status": "verified",
+         "sources": [{"label": "OpenAlex", "url": "https://openalex.org/A0000000001"}, {"label": "Crossref", "url": "https://doi.org/10.0000/example.2025.001", "primary": true}]},
+        {"name": "C. Colleague", "relationship": "Co-author (NUS)", "joint_works": 2, "singapore_link": true, "detail": "Co-author on Singapore public housing paper.", "status": "verified",
+         "sources": [{"label": "Crossref", "url": "https://doi.org/10.0000/example.2024.002", "primary": true}]},
+        {"name": "Prof H. Adviser", "relationship": "PhD adviser", "detail": "Listed as dissertation chair.", "status": "partial",
+         "sources": [{"label": "Dissertation record", "url": "https://example.org/thesis"}]}
+      ],
+      "talking_points": [
+        {"point": "Their estimate that supply elasticity is about one-third lower in land-constrained cities; ask how Singapore compares within their sample.", "refs": ["p1"]},
+        {"point": "Wealth effects of earlier public housing allocation: implications for how allocation rules are designed.", "refs": ["p2"]},
+        {"point": "Hong Kong mobility evidence; ask whether the mechanism carries over to an ownership-based system.", "refs": ["p4"]},
+        {"point": "A structural zoning model as a possible tool for evaluating plot-ratio changes.", "refs": ["p3"]},
+        {"point": "Interest in collaborating using anonymised administrative resale data, subject to data-governance rules."},
+        {"point": "Moving-cost research as context for the effect of housing on labour-market flexibility.", "refs": ["p5"]}
+      ],
+      "questions": [
+        "Which policy margins (height, plot ratio, land release) matter most in your model?",
+        "How robust are the Singapore estimates to the choice of period?",
+        "What data would most improve identification for a city-state?"
+      ],
+      "collaboration": ["Joint study on supply responses using administrative data.", "Seminar at MND on land-constrained housing supply."],
+      "sensitivities": ["Has publicly criticised rent control; avoid framing that implies endorsement of any specific policy position."]
+    }
+  ],
+  "cross_person": null,
+  "unverified": []
+}
